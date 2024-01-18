@@ -8,7 +8,7 @@ var app=express();
 const route=require('./routes/route')
 
 //mongodb connection
-mongoose.connect('mongodb+srv://honeybogarapu:honey@cluster0.bhwcicq.mongodb.net/contactSchema');
+mongoose.connect('mongodb+srv://xxxxx:xxxxx@cluster0.bhwcicq.mongodb.net/contactSchema');
 
 //on connection
 mongoose.connection.on('connected',()=>{
